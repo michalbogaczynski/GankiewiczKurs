@@ -10,6 +10,9 @@ namespace ModelowanieKlas
     {
         static void Main(string[] args)
         {
+            Order order1 = new Order(1, 100);
+            User User = new User("email@user.com", "secret");
+            
         }
     }
 }
